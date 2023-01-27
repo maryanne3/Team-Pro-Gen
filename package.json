@@ -1,0 +1,22 @@
+{
+  "name": "team-pro-gen",
+  "version": "1.0.0",
+  "description": "Object-Oriented Programming : Team Profile Generator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryanne3/Team-Pro-Gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryanne3/Team-Pro-Gen/issues"
+  },
+  "homepage": "https://github.com/maryanne3/Team-Pro-Gen#readme"
+}
