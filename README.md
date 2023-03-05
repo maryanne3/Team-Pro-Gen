@@ -5,7 +5,7 @@ Object-Oriented Programming : Team Profile Generator
 
 1. [Description of the application](#description)
 2. [Technologies used in the application](#technologies)
-3. [User Story](#User story)
+3. [User Story](#Userstory)
 4. [Installation](#installation)
 5. [Links](#links)
 
@@ -24,7 +24,7 @@ This Team Profile generator web application powered by Node.js showcases a basic
 ## User story
 
 AS A manager
-I WANT to generate a webpage that displays my team's basic info
+`#0d1117` I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 
 ## Installation
