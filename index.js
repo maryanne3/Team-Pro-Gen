@@ -8,7 +8,7 @@ const Intern = require("./lib/Intern");
 
 let teamData = [];
 
-// prompted questions
+// Questions
 const addManager = () => {
   return (
     inquirer
@@ -30,15 +30,15 @@ const addManager = () => {
         },
         {
           type: "input",
-          name: "officeNumber",
-          message: "Please provide the manager's office number:",
+          name: "Address",
+          message: "Please provide the manager's Address:",
         },
       ])
 
-      // add manager to the team data
+      // Add manager to the team data
       .then((managerData) => {
-        const { name, id, email, officeNumber} = managerData;
-        const manager = new Manager(name, id, email, officeNumber);
+        const { name, id, email, Address} = managerData;
+        const manager = new Manager(name, id, email, Address);
         teamData.push(manager);
       })
   );
@@ -84,8 +84,8 @@ const addEmployee = () => {
       },
       {
         type: "input",
-        name: "school",
-        message: "Please provide the intern's school name:",
+        name: "University",
+        message: "Please provide the intern's University:",
         when: function (answers) {
           return answers.role === "Intern";
         },
@@ -124,7 +124,7 @@ addManager()
   .then((teamData) => {
     const pageHTML = generatePage(teamData);
 
-    fs.writeFile("./templates/index.html", pageHTML, (err) => {
+    fs.writeFile("./assets/index.html", pageHTML, (err) => {
       if (err) throw new Error(err);
 
       console.log("Team profile page created! ");
