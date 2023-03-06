@@ -8,6 +8,7 @@ Object-Oriented Programming : Team Profile Generator
 3. [User Story](#Userstory)
 4. [Installation](#installation)
 5. [Pages](#pages)
+6. [Links](#links)
 
 
 ## Description 
@@ -46,3 +47,9 @@ On your terminal or command line run node index.js
 ## Pages  
 
 ![Alt text](assets/images/html.png)
+
+## Links 
+
+Video link - https://clipchamp.com/watch/c0hE66navor
+
+
