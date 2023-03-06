@@ -30,6 +30,8 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 
+```
+
 ## Installation
 
 Steps to follow for installation:
@@ -41,6 +43,7 @@ Install npm packages by running npm i or npm run install
 Install inquirer and jest packages by running npm i inquirer and npm i jest respectively.
 
 On your terminal or command line run node index.js
+
 
 ## Pages  
 
