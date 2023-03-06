@@ -24,7 +24,7 @@
     <ul class="list-group my-5 mx-4 bg-dark">
       <li class="list-group-item">ID: ${manager.id}</li>
       <li class="list-group-item">Email: <a href="mailto:${manager.email}">${manager.email}</a></li>
-      <li class="list-group-item">Office number: ${manager.officeNumber}</li>
+      <li class="list-group-item">Office number: ${manager.Address}</li>
     </ul>
   </div>
     `;
