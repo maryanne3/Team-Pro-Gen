@@ -24,8 +24,8 @@ This Team Profile generator web application powered by Node.js showcases a basic
 ## User story
 
 AS A manager
-`#0d1117` I WANT to generate a webpage that displays my team's basic info
-SO THAT I have quick access to their emails and GitHub profiles
+`I WANT to generate a webpage that displays my team's basic info
+SO THAT I have quick access to their emails and GitHub profiles`
 
 ## Installation
 ## Links 
