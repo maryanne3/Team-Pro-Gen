@@ -2,48 +2,47 @@
   const generateEngineer = (engineer) => {
     return ` 
     <div class="card col-8 col-md-5 col-lg-4 col-xl-3 m-3 shadow">
-    <div class="card-header bg-primary text-white">
-      <h2>${engineer.name}</h2>
-      <h3> ~ Engineer</h3>
-    </div>
-    <ul class="list-group my-5 mx-4 bg-dark">
-      <li class="list-group-item">ID: ${engineer.id}</li>
-      <li class="list-group-item">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></li>
-      <li class="list-group-item">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></li>
-    </ul>
-  </div>
+<div class="card-header bg-light text-dark">
+  <h2> ${engineer.name} </h2>
+  <h3> ~ Engineer</h3>
+</div>
+<ul class="list-group my-5 mx-4 bg-dark">
+  <li class="list-group-item">ID: ${engineer.id} </li>
+  <li class="list-group-item">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></li>
+  <li class="list-group-item">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></li>
+</ul>
+</div>
     `;
   };
   const generateManager = (manager) => {
     return ` 
     <div class="card col-8 col-md-5 col-lg-4 col-xl-3 m-3 shadow">
-    <div class="card-header bg-primary text-white">
-      <h2>${manager.name}</h2>
-      <h3> ~ Manager</h3>
-    </div>
-    <ul class="list-group my-5 mx-4 bg-dark">
-      <li class="list-group-item">ID: ${manager.id}</li>
-      <li class="list-group-item">Email: <a href="mailto:${manager.email}">${manager.email}</a></li>
-      <li class="list-group-item">Office number: ${manager.Address}</li>
-    </ul>
-  </div>
+<div class="card-header bg-info text-white">
+  <h2> ${manager.name} </h2>
+  <h3>  ~ Team Manager</h3>
+</div>
+<ul class="list-group my-5 mx-4 bg-dark">
+  <li class="list-group-item">ID: ${manager.id} </li>
+  <li class="list-group-item">Email: <a href="mailto:${manager.email}">${manager.email}</a></li>
+  <li class="list-group-item"><Address>${manager.address}</Address></li>
+</ul>
+</div>
     `;
   };
 
-  //create Intern 
   const generateIntern = (intern) => {
     return ` 
     <div class="card col-8 col-md-5 col-lg-4 col-xl-3 m-3 shadow">
-    <div class="card-header bg-primary text-white">
-      <h2>${intern.name}</h2>
-      <h3> ~ Intern</h3>
-    </div>
-    <ul class="list-group my-5 mx-4 bg-dark">
-      <li class="list-group-item">ID: ${intern.id}</li>
-      <li class="list-group-item">Email: <a href="mailto:${intern.email}">${intern.email}</a></li>
-      <li class="list-group-item">School: ${intern.University}</li>
-    </ul>
-  </div>
+<div class="card-header bg-light text-dark">
+  <h2> ${intern.name} </h2>
+  <h3> ~ Intern </h3>
+</div>
+<ul class="list-group my-5 mx-4 bg-dark">
+  <li class="list-group-item">ID:${intern.id}</li>
+  <li class="list-group-item">Email: <a href="mailto:${intern.email}">${intern.email}</a></li>
+  <li class="list-group-item">University: ${intern.University} </li>
+</ul>
+</div>
     `;
   };
   
@@ -88,9 +87,9 @@
       <title>Team Profile</title>
     </head>
     <body>
-      <header class="jumbotron bg-danger">
-        <h1 class="text-white text-center p-4">My Team</h1>
-      </header>
+    <header class="jumbotron bg-info">
+      <h1 class="text-white text-center p-4"> My Team </h1>
+    </header>
       <section class="container">
         <div class="row g-0 d-flex justify-content-center p-5">
          ${teamCardInfo}
