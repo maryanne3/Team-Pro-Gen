@@ -5,9 +5,9 @@ Object-Oriented Programming : Team Profile Generator
 
 1. [Description of the application](#description)
 2. [Technologies used in the application](#technologies)
-3. [User Story](#User story)
+3. [User Story](#Userstory)
 4. [Installation](#installation)
-5. [Links](#links)
+5. [Pages](#pages)
 
 
 ## Description 
@@ -23,9 +23,25 @@ This Team Profile generator web application powered by Node.js showcases a basic
 
 ## User story
 
-AS A manager
+``` 
+AS A manager:
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
+```
+
 
 ## Installation
-## Links 
+
+Steps to follow for installation:
+
+Copy repository code and run git clone command on your your local machine.
+
+Install npm packages by running npm i or npm run install
+
+Install inquirer and jest packages by running npm i inquirer and npm i jest respectively.
+
+On your terminal or command line run node index.js
+
+## Pages  
+
+![Alt text](assets/images/html.png)
