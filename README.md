@@ -30,8 +30,6 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 
-```
-
 ## Installation
 
 Steps to follow for installation:
