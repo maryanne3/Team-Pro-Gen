@@ -41,7 +41,7 @@
     <ul class="list-group my-5 mx-4 bg-dark">
       <li class="list-group-item">ID: ${intern.id}</li>
       <li class="list-group-item">Email: <a href="mailto:${intern.email}">${intern.email}</a></li>
-      <li class="list-group-item">School: ${intern.school}</li>
+      <li class="list-group-item">School: ${intern.University}</li>
     </ul>
   </div>
     `;
